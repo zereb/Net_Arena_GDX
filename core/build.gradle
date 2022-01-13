@@ -1,0 +1,10 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+	api "com.badlogicgames.gdx:gdx:$gdxVersion"
+	api "com.github.crykn:kryonet:$kryoNetVersion"
+//	api group: 'org.mapeditor', name: 'libtiled', version: '1.4.2'
+//	implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+//	implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
+}
